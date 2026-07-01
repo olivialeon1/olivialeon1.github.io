@@ -1,0 +1,67 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: serif;
+}
+
+body {
+	background-color: rgb(240, 240, 240);
+	color: rgb(45, 45, 45);
+	line-height: 140%;
+	font-family: sans-serif;
+}
+
+h1 {
+	background-color: rgb(160, 160, 172);
+	color: rgb(240, 240, 240);
+	font-size: 2.4em;
+	padding: 1em .75em .4em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	background-color: rgb(160, 160, 172);
+	color: rgb(240, 240, 240);
+	font-size: 2em;
+	padding: 0 .75em .8em;
+	font-family: serif;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 3.25em .75em 1.5em;
+	padding-top: .45em;
+	font-size: 1.5em;
+	color: rgb(170, 45, 40);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	border-top: .15em solid rgb(170, 45, 40);
+}
+
+h4 {
+	font-weight: bold;
+}
+
+p.description {
+	font-style: italic;
+}
+
+p.price {
+	color: rgb(170, 45, 40);
+}
+
+ul {
+	margin: 0 .75em 2em;
+	padding: 0;
+}
+
+li { 
+	margin: 0 0 1.5em;
+	list-style-type: none;
+}
