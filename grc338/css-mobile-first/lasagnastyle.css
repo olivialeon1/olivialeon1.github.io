@@ -14,25 +14,25 @@ img {
 }
 
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(220, 220, 220);
 }
 
 .container {
+    max-width: 62em;
+    margin: auto;
     background-color: rgb(255, 255, 255);
-    max-width: 900px;
-    margin: 0 auto;
 }
 
 header {
     background-color: rgb(255, 130, 0);
-    padding: 3em;
+    padding: 3em 2em 1.5em;
 }
 
 h1 {
     font-family: Sutro, serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 3.8em;
+    font-size: 2em;
     line-height: 1.1;
     color: rgb(255, 255, 255);
 }
@@ -41,34 +41,46 @@ h2 {
     font-family: Sutro, serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 2.3em;
-    line-height: 1.2;
+    font-size: 1.4em;
     color: rgb(255, 255, 255);
-    margin-top: 0.5em;
+    margin-top: 0.3em;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 figcaption {
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 1.6em;
-    line-height: 1.5;
-    color: rgb(34, 34, 34);
-    padding: 1.5em;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 2em;
+    color: rgb(35, 35, 35);
 }
 
 main {
-    padding: 0 2em 2em 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5em;
+    padding: 2.5em;
+}
+
+section {
+    border-top: 0.1em solid rgb(255, 130, 0);
+    padding-top: 1em;
 }
 
 h3 {
     font-family: Sutro, serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2.2em;
+    font-size: 1.2em;
     text-transform: uppercase;
     color: rgb(255, 130, 0);
-    margin: 1em 0 0.6em 0;
+    margin-bottom: 1em;
 }
 
 ul,
@@ -76,8 +88,15 @@ ol {
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5em;
-    line-height: 1.5;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+ol {
     padding-left: 1.3em;
 }
 
@@ -87,13 +106,13 @@ li {
 
 footer {
     background-color: rgb(255, 130, 0);
-    padding: 2em;
+    padding: 1.2em;
 }
 
 footer p {
     font-family: poppins, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.2em;
+    font-size: 1em;
     color: rgb(255, 255, 255);
 }
